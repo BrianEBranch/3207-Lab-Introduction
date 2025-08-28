@@ -1,0 +1,6 @@
+#ifndef randchar
+#define randchar
+
+char randchar();
+
+#endif

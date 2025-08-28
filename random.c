@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+char randchar(){
+  //ASCII value of A  = 65, Z = 90;
+  int randNum = (rand() % (90 - 65 + 1)) + 65;
+
+  char randChar = (char)randNum;
+  return randChar;
+}
